@@ -21,7 +21,7 @@ const URLShortener = () => {
             Built using socket.io & React.
           </p>
           <div className="flex gap-5 m-auto">
-            <a href="https://github.com/watchmego/chatty" target="_blank" className="m-auto">
+            <a href="https://github.com/watchmego/chatty" className="m-auto">
               <button class="bg-transparent hover:white text-white hover:text-black hover:bg-white font-semibold py-2 px-4 border border-white hover:border-black rounded">
                 Github
               </button>
