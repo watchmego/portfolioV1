@@ -19,6 +19,7 @@ const Chatty = () => {
           <p className="w-screen xl:w-[calc(40vw-20px)] text-xl tracking-wide leading-relaxed text-white text-right">
             A socket based chat application with rooms & AI assistant. Add GPT-3.5 at the click of a button.
             Built using socket.io & React.
+            Deployed using AWS Amplify - AWS ECS, API Gateway, Cloudfront and CloudFormation were used/modified in the process.
           </p>
           <div className="flex gap-5 m-auto">
             <a href="https://github.com/watchmego/chatty" className="m-auto">
@@ -59,6 +60,7 @@ const URLShortener = () => {
           </h3>
           <p className="w-screen xl:w-[calc(40vw-20px)] text-xl tracking-wide leading-relaxed text-white text-left">
             A URL shortener similar to bit.ly. Stores shortened URLs in a MongoDB. This was a project with a pre-built frontend (thanks to <a href="https://maximorlov.com/backend-portfolio-projects-no-css">Maxim Orlov</a>). The backend was built from scratch based a list of features.
+            Deployed using AWS Amplify.
           </p>
           <div className="flex gap-5 m-auto">
             <a href="https://www.github.com/watchmego/url-shortener" target="_blank" className="m-auto">
