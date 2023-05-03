@@ -56,7 +56,7 @@ const URLShortener = () => {
             Featured Project
           </p>
           <h3 className="text-center text-2xl font-bold pb-4 text-white">
-            Project Name
+            URL Shortener
           </h3>
           <p className="w-screen xl:w-[calc(40vw-20px)] text-xl tracking-wide leading-relaxed text-white text-left">
             A URL shortener similar to bit.ly. Stores shortened URLs in a MongoDB. This was a project with a pre-built frontend (thanks to <a href="https://maximorlov.com/backend-portfolio-projects-no-css">Maxim Orlov</a>). The backend was built from scratch based a list of features.
