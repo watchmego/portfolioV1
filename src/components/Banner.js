@@ -6,7 +6,7 @@ const Banner = () => {
       <h1 className="text-5xl font-bold text-center tracking-wide leading-relaxed text-white">
         I'm Reuben,
         <br /> a self taught Software Developer <br />
-        with 15 years Systems Engineering exp.
+        with skills in many domains
       </h1>
     </div>
   );
