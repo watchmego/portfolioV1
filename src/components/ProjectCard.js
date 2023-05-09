@@ -17,7 +17,7 @@ const Chatty = () => {
           <h3 className="text-center text-2xl font-bold pb-4 text-white">
             Chatty
           </h3>
-          <p className="w-[80vw] xl:w-[calc(30vw-20px)] text-2xl tracking-wide leading-relaxed text-white text-center xl:text-right">
+          <p className="w-[80vw] xl:w-[calc(30vw-20px)] text-xl tracking-wide leading-relaxed text-white text-center xl:text-right">
             A socket based chat application with rooms & AI assistant. Add GPT-3.5 at the click of a button.
             Built using socket.io & React.
             Deployed using AWS Amplify - AWS ECS, API Gateway, Cloudfront and CloudFormation were used/modified in the process.
@@ -48,7 +48,7 @@ const Chatty = () => {
 const URLShortener = () => {
   return (
     <div className="bg-[#1c6f7c]">
-      <div className="flex max-w-[1100px] w-full pt-[150px] height-auto flex-col gap-10 xl:flex-row-reverse items-center justify-center m-auto  ">
+      <div className="flex max-w-[1100px] w-full pt-[115px] height-auto flex-col gap-10 xl:flex-row-reverse items-center justify-center m-auto  ">
         <img
           className="relative bottom-[-40px] max-w-[550px]  max-h-[400px] object-cover top xl:w-[calc(50vw-20px)]"
           src={URLImg}
@@ -60,7 +60,7 @@ const URLShortener = () => {
           <h3 className="text-center text-2xl font-bold pb-4 text-white">
             URL Shortener
           </h3>
-          <p className="w-[80vw] xl:w-[calc(30vw-20px)] text-xl tracking-wide leading-relaxed text-white text-center xl:text-right">
+          <p className="w-[80vw] xl:w-[calc(30vw-20px)] text-xl tracking-wide leading-relaxed text-white text-center xl:text-left">
             A URL shortener similar to bit.ly. Stores shortened URLs in a MongoDB. This was a project with a pre-built frontend (thanks to <a href="https://maximorlov.com/backend-portfolio-projects-no-css">Maxim Orlov</a>). The backend was built from scratch based a list of features.
             Deployed using AWS Amplify.
           </p>
@@ -87,8 +87,4 @@ const URLShortener = () => {
   );
 };
 
-const Pairs = () => {
-  return <div>Pairs</div>;
-};
-
-export const ProjectCards = [URLShortener, Chatty, Pairs];
+export const ProjectCards = [URLShortener, Chatty];
