@@ -17,9 +17,9 @@ const About = () => {
         <div className="w-screen xl:w-[calc(50%-20px)] ">
         <p className="lg:text-3xl text-2xl tracking-wide leading-relaxed">
           After a going into VOIP/Networks straight out of school, I spent most of my career integrating software solutions into existing environments. 
+          </p>
           <p className="lg:text-3xl text-2xl pt-5 tracking-wide leading-relaxed">
             This required a broad knowledge of the systems, and a lot of planning to stand up solutions successfully.
-          </p>
           In 2020 I took a break from IT and started an eCommerce Business which I sold in November 2022. I had already made the decision to get into coding because I saw it as an outlet for my creativity, and I have developed a passion for it.
         </p>
         </div>
