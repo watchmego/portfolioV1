@@ -5,7 +5,6 @@ const About = () => {
   return (
     <div className="max-w-[1100px] py-10 items-center justify-center m-auto">
       <div className="flex gap-10 w-full  height-auto flex-col xl:flex-row  ">
-        {/* <img className="max-w-[550px] max-h-[400px] object-cover object-right-top top xl:w-[calc(50vw-20px)]" src={aboutImg}/> */}
         <div className="w-screen xl:w-[calc(50%-20px)] ">
         <p className="lg:text-5xl text-4xl tracking-wide leading-relaxed">
           Over the past 16 or so years in IT I have built up a broad range of skills in IT 
