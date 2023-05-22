@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="sticky top-0 p-5 flex items-start justify-between transition mx-auto z-20 xl:items-center bg-transparent">
+    <header className="sticky top-0 p-5 flex items-start justify-between transition mx-auto z-20 xl:items-center bg-white">
       <motion.div
         className="flex flex-row items-center"
         initial={{

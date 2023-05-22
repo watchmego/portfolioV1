@@ -3,9 +3,9 @@ import { icons } from "./Skills";
 
 const About = () => {
   return (
-    <div className="max-w-[1100px] py-10 items-center justify-center m-auto">
+    <div className="max-w-[1100px] px-10 py-10 items-center justify-center m-auto">
       <div className="flex gap-10 w-full  height-auto flex-col xl:flex-row  ">
-        <div className="w-screen xl:w-[calc(50%-20px)] ">
+        <div className="w-full xl:w-[calc(50%-20px)] ">
         <p className="lg:text-5xl text-4xl tracking-wide leading-relaxed">
           Over the past 16 or so years in IT I have built up a broad range of skills in IT 
           </p>
@@ -13,7 +13,7 @@ const About = () => {
             I enjoy working with a variety of technologies, getting stuck into difficult problems and coming up with simple solutions.
         </p>
         </div>
-        <div className="w-screen xl:w-[calc(50%-20px)] ">
+        <div className="w-full xl:w-[calc(50%-20px)] ">
         <p className="lg:text-3xl text-2xl tracking-wide leading-relaxed">
           After a going into VOIP/Networks straight out of school, I spent most of my career integrating software solutions into existing environments. 
           </p>

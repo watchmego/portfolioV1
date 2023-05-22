@@ -2,7 +2,7 @@ import React from "react";
 import { ProjectCards } from "./ProjectCard";
 const Projects = () => {
   return (
-    <div>
+    <div className="px-10">
       {ProjectCards.map((Card, idx) => {
         return (
           <div key={idx}>

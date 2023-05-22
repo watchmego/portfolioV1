@@ -7,7 +7,7 @@ const Chatty = () => {
     <div className="bg-[#212121]">
       <div className="flex max-w-[1100px] w-full pt-[115px] height-auto flex-col gap-10 xl:flex-row items-center justify-center m-auto  ">
         <img
-          className="relative bottom-[-40px] max-w-[550px]  max-h-[400px] object-cover top xl:w-[calc(50vw-20px)]"
+          className="relative bottom-[-40px] xl:max-w-[550px]  max-h-[400px] object-cover top xl:w-[calc(50vw-20px)]"
           src={chattyImg}
         />
         <div className="flex flex-col">
@@ -50,7 +50,7 @@ const URLShortener = () => {
     <div className="bg-[#1c6f7c]">
       <div className="flex max-w-[1100px] w-full pt-[115px] height-auto flex-col gap-10 xl:flex-row-reverse items-center justify-center m-auto  ">
         <img
-          className="relative bottom-[-40px] max-w-[550px]  max-h-[400px] object-cover top xl:w-[calc(50vw-20px)]"
+          className="relative bottom-[-40px] xl:max-w-[550px]  max-h-[400px] object-cover top xl:w-[calc(50vw-20px)]"
           src={URLImg}
         />
         <div className="flex flex-col">
