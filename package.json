@@ -2,6 +2,7 @@
   "name": "websitev2",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://watchmego.github.io/portfolioV1/",
   "dependencies": {
     "@heroicons/react": "^2.0.16",
     "@icons-pack/react-simple-icons": "^7.1.1",
